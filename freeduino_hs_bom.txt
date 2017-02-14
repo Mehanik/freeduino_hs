@@ -1,0 +1,49 @@
+Partlist exported from /home/eugene/eagle/Freeduiono/HS/freeduino_hs.sch at 14.02.17 21:21
+
+Part  Value                Device                        Package               Description                                       MF MPN      OC_FARNELL OC_NEWARK VALUE 
+AD    6x1F-H8.5            PINHD-1X6                     1X06                  PIN HEADER                                                                               
+C1    100n                 C-EU050-024X044               C050-024X044          CAPACITOR, European symbol                                                               
+C2    100n                 C-EU050-024X044               C050-024X044          CAPACITOR, European symbol                                                               
+C3    100n                 C-EU050-024X044               C050-024X044          CAPACITOR, European symbol                                                               
+C4    100n                 C-EU050-024X044               C050-024X044          CAPACITOR, European symbol                                                               
+C5    47u                  CPOL-EUE2.5-5                 E2,5-5                POLARIZED CAPACITOR, European symbol                                                     
+C6    47u                  CPOL-EUE2.5-5                 E2,5-5                POLARIZED CAPACITOR, European symbol                                                     
+C7    100n                 C-EU050-024X044               C050-024X044          CAPACITOR, European symbol                                                               
+C8    22n                  C-EU050-024X044               C050-024X044          CAPACITOR, European symbol                                                               
+C9    22n                  C-EU050-024X044               C050-024X044          CAPACITOR, European symbol                                                               
+C10   47u                  CPOL-EUE2.5-5                 E2,5-5                POLARIZED CAPACITOR, European symbol                                                     
+C13   22n                  C-EU050-024X044               C050-024X044          CAPACITOR, European symbol                                                               
+C14   22n                  C-EU050-024X044               C050-024X044          CAPACITOR, European symbol                                                               
+D1    YELLOW               LED3MM                        LED3MM                LED                                                                                      
+D2    YELLOW               LED3MM                        LED3MM                LED                                                                                      
+D3    YELLOW               LED3MM                        LED3MM                LED                                                                                      
+D4    GREEN                LED3MM                        LED3MM                LED                                                                                      
+D5    1N5817-B             1N5817-B                      DO41-7.6              1.0A SCHOTTKY BARRIER RECTIFIER                                                          
+ICSP  3x2 M                PINHD-2X3                     2X03                  PIN HEADER                                                                               
+IOH   10x1F-H8.5           PINHD-1X10                    1X10                  PIN HEADER                                                                               
+IOL   8x1F-H8.5            PINHD-1X8                     1X08                  PIN HEADER                                                                               
+J1    DC-005               CONN-POWER-JACK-2.1MM(DC-005) DCJ3P-14.2X11.0X9.0MM 320120003                                            DC-005                        DC-005
+JP2                        PINHD-1X2                     1X02                  PIN HEADER                                                                               
+JP3   S                    PINHD-1X1                     1X01                  PIN HEADER                                                                               
+JP4   D                    PINHD-1X1                     1X01                  PIN HEADER                                                                               
+JP5   G                    PINHD-1X1                     1X01                  PIN HEADER                                                                               
+POWER 8x1F-H8.5            PINHD-1X8                     1X08                  PIN HEADER                                                                               
+Q1    16 MHz               CRYSTALHC49S                  HC49/S                CRYSTAL                                                       1667008    unknown         
+Q2    12 MHz               CRYSTALHC49S                  HC49/S                CRYSTAL                                                       1667008    unknown         
+R1    10k                  R-EU_0204/7                   0204/7                RESISTOR, European symbol                                                                
+R2    10k                  R-EU_0204/7                   0204/7                RESISTOR, European symbol                                                                
+R3    1k                   R-EU_0204/7                   0204/7                RESISTOR, European symbol                                                                
+R4    1k                   R-EU_0204/7                   0204/7                RESISTOR, European symbol                                                                
+R5    1k                   R-EU_0204/7                   0204/7                RESISTOR, European symbol                                                                
+R6    1k                   R-EU_0204/7                   0204/7                RESISTOR, European symbol                                                                
+R7    1k                   R-EU_0204/7                   0204/7                RESISTOR, European symbol                                                                
+R8    1k                   R-EU_0204/7                   0204/7                RESISTOR, European symbol                                                                
+R9    1k                   R-EU_0204/7                   0204/7                RESISTOR, European symbol                                                                
+RESET TS42031-160R-TR-7260 10-XX                         B3F-10XX              OMRON SWITCH                                         B3F-1000 176432     36M3542         
+T1    FDN340P              PMOSSOT23                     SOT-23                MOS FET                                                       unknown    unknown         
+U1    CH340G               CH340G                        SOIC16                                                                                                         
+U2    LM393D               LM393D                        SO08                  COMPARATOR                                                                               
+U3    ATMEGA328P-PU        ATMEGA328P-PU                 DIL28-3               MICROCONTROLLER                                                                          
+U4    REG1117              REG1117                       SOT223                800mA and 1A Low Dropout (LDO) Positive Regulator    REG1117  1097566    14P6981         
+U5    REG1117              REG1117                       SOT223                800mA and 1A Low Dropout (LDO) Positive Regulator    REG1117  1097566    14P6981         
+X1    MINI-USB-32005-201   MINI-USB-32005-201            32005-201             MINI USB-B Conector                                           unknown    unknown         
