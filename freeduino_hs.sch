@@ -10761,24 +10761,43 @@ NS Package M08A</description>
 <rectangle x1="-0.88" y1="2" x2="-0.39" y2="3.1" layer="51"/>
 <rectangle x1="-2.15" y1="2" x2="-1.66" y2="3.1" layer="51"/>
 </package>
-<package name="DIL08" urn="urn:adsk.eagle:footprint:16129/1" library_version="4">
-<description>&lt;b&gt;Dual In Line Package&lt;/b&gt;</description>
-<wire x1="5.08" y1="2.921" x2="-5.08" y2="2.921" width="0.1524" layer="21"/>
-<wire x1="-5.08" y1="-2.921" x2="5.08" y2="-2.921" width="0.1524" layer="21"/>
-<wire x1="5.08" y1="2.921" x2="5.08" y2="-2.921" width="0.1524" layer="21"/>
-<wire x1="-5.08" y1="2.921" x2="-5.08" y2="1.016" width="0.1524" layer="21"/>
-<wire x1="-5.08" y1="-2.921" x2="-5.08" y2="-1.016" width="0.1524" layer="21"/>
-<wire x1="-5.08" y1="1.016" x2="-5.08" y2="-1.016" width="0.1524" layer="21" curve="-180"/>
-<pad name="1" x="-3.81" y="-3.81" drill="0.8128" diameter="1.27" rot="R90"/>
-<pad name="2" x="-1.27" y="-3.81" drill="0.8128" diameter="1.27" rot="R90"/>
-<pad name="7" x="-1.27" y="3.81" drill="0.8128" diameter="1.27" rot="R90"/>
-<pad name="8" x="-3.81" y="3.81" drill="0.8128" diameter="1.27" rot="R90"/>
-<pad name="3" x="1.27" y="-3.81" drill="0.8128" diameter="1.27" rot="R90"/>
-<pad name="4" x="3.81" y="-3.81" drill="0.8128" diameter="1.27" rot="R90"/>
-<pad name="6" x="1.27" y="3.81" drill="0.8128" diameter="1.27" rot="R90"/>
-<pad name="5" x="3.81" y="3.81" drill="0.8128" diameter="1.27" rot="R90"/>
-<text x="-5.334" y="-2.921" size="1.27" layer="25" ratio="10" rot="R90">&gt;NAME</text>
-<text x="-3.556" y="-0.635" size="1.27" layer="27" ratio="10">&gt;VALUE</text>
+<package name="MSOP08" urn="urn:adsk.eagle:footprint:16286/1" library_version="4">
+<description>&lt;b&gt;Mini Small Outline Package&lt;/b&gt;</description>
+<wire x1="1.624" y1="1.299" x2="1.624" y2="-1.301" width="0.1524" layer="21"/>
+<wire x1="-1.626" y1="-1.301" x2="-1.626" y2="1.299" width="0.1524" layer="21"/>
+<wire x1="1.299" y1="1.624" x2="1.624" y2="1.299" width="0.1524" layer="21" curve="-90"/>
+<wire x1="-1.626" y1="1.299" x2="-1.301" y2="1.624" width="0.1524" layer="21" curve="-90"/>
+<wire x1="-1.626" y1="-1.301" x2="-1.301" y2="-1.626" width="0.1524" layer="21" curve="90"/>
+<wire x1="1.299" y1="-1.626" x2="1.624" y2="-1.301" width="0.1524" layer="21" curve="90"/>
+<wire x1="-1.341" y1="-1.626" x2="-1.204" y2="-1.626" width="0.1524" layer="51"/>
+<wire x1="-0.747" y1="-1.626" x2="-0.554" y2="-1.626" width="0.1524" layer="51"/>
+<wire x1="-0.097" y1="-1.626" x2="0.096" y2="-1.626" width="0.1524" layer="51"/>
+<wire x1="0.553" y1="-1.626" x2="0.746" y2="-1.626" width="0.1524" layer="51"/>
+<wire x1="1.203" y1="-1.626" x2="1.299" y2="-1.626" width="0.1524" layer="51"/>
+<wire x1="-1.301" y1="1.624" x2="-1.204" y2="1.624" width="0.1524" layer="51"/>
+<wire x1="-0.747" y1="1.624" x2="-0.554" y2="1.624" width="0.1524" layer="51"/>
+<wire x1="-0.097" y1="1.624" x2="0.096" y2="1.624" width="0.1524" layer="51"/>
+<wire x1="0.553" y1="1.624" x2="0.746" y2="1.624" width="0.1524" layer="51"/>
+<wire x1="1.203" y1="1.624" x2="1.299" y2="1.624" width="0.1524" layer="51"/>
+<circle x="-0.9456" y="-0.7906" radius="0.5" width="0.0508" layer="21"/>
+<smd name="8" x="-0.976" y="2.112" dx="0.3" dy="1.2" layer="1"/>
+<smd name="7" x="-0.326" y="2.112" dx="0.3" dy="1.2" layer="1"/>
+<smd name="6" x="0.324" y="2.112" dx="0.3" dy="1.2" layer="1"/>
+<smd name="5" x="0.974" y="2.112" dx="0.3" dy="1.2" layer="1"/>
+<smd name="4" x="0.974" y="-2.113" dx="0.3" dy="1.2" layer="1"/>
+<smd name="3" x="0.324" y="-2.113" dx="0.3" dy="1.2" layer="1"/>
+<smd name="2" x="-0.326" y="-2.113" dx="0.3" dy="1.2" layer="1"/>
+<smd name="1" x="-0.976" y="-2.113" dx="0.3" dy="1.2" layer="1"/>
+<text x="-2.032" y="-2.54" size="1.27" layer="25" ratio="10" rot="R90">&gt;NAME</text>
+<text x="3.302" y="-2.54" size="1.27" layer="27" ratio="10" rot="R90">&gt;VALUE</text>
+<rectangle x1="-1.0975" y1="1.6244" x2="-0.8537" y2="2.3557" layer="51"/>
+<rectangle x1="-0.4475" y1="1.6244" x2="-0.2037" y2="2.3557" layer="51"/>
+<rectangle x1="0.2025" y1="1.6244" x2="0.4463" y2="2.3557" layer="51"/>
+<rectangle x1="0.8525" y1="1.6244" x2="1.0963" y2="2.3557" layer="51"/>
+<rectangle x1="-1.0975" y1="-2.3569" x2="-0.8537" y2="-1.6256" layer="51"/>
+<rectangle x1="-0.4475" y1="-2.3569" x2="-0.2037" y2="-1.6256" layer="51"/>
+<rectangle x1="0.2025" y1="-2.3569" x2="0.4463" y2="-1.6256" layer="51"/>
+<rectangle x1="0.8525" y1="-2.3569" x2="1.0963" y2="-1.6256" layer="51"/>
 </package>
 </packages>
 <packages3d>
@@ -10789,10 +10808,10 @@ NS Package M08A</description>
 <packageinstance name="SO08"/>
 </packageinstances>
 </package3d>
-<package3d name="DIL08" urn="urn:adsk.eagle:package:16409/2" type="model" library_version="4">
-<description>Dual In Line Package</description>
+<package3d name="MSOP08" urn="urn:adsk.eagle:package:16453/1" type="box" library_version="4">
+<description>Mini Small Outline Package</description>
 <packageinstances>
-<packageinstance name="DIL08"/>
+<packageinstance name="MSOP08"/>
 </packageinstances>
 </package3d>
 </packages3d>
@@ -10818,33 +10837,17 @@ NS Package M08A</description>
 </symbol>
 </symbols>
 <devicesets>
-<deviceset name="LM393" urn="urn:adsk.eagle:component:16611/3" prefix="IC" library_version="4">
-<description>&lt;b&gt;COMPARATOR&lt;/b&gt;</description>
+<deviceset name="LMV358?*" urn="urn:adsk.eagle:component:16775/2" prefix="IC" library_version="4">
+<description>Dual &lt;b&gt;General Purpose, Low Voltage, Rail-to-Rail Output Operational Amplifiers&lt;/b&gt;&lt;p&gt;
+Source: http://www.national.com/mpf/LM/LMV321.html&lt;br&gt;
+http://www.national.com/dt/lmv_qual.pdf</description>
 <gates>
-<gate name="A" symbol="OPAMP" x="5.08" y="0" swaplevel="1"/>
-<gate name="B" symbol="OPAMP" x="30.48" y="0" swaplevel="1"/>
-<gate name="P" symbol="PWR+-" x="5.08" y="0" addlevel="request"/>
+<gate name="A" symbol="OPAMP" x="0" y="10.16"/>
+<gate name="B" symbol="OPAMP" x="0" y="-10.16"/>
+<gate name="P" symbol="PWR+-" x="0" y="10.16" addlevel="always"/>
 </gates>
 <devices>
-<device name="N" package="DIL08">
-<connects>
-<connect gate="A" pin="+IN" pad="3"/>
-<connect gate="A" pin="-IN" pad="2"/>
-<connect gate="A" pin="OUT" pad="1"/>
-<connect gate="B" pin="+IN" pad="5"/>
-<connect gate="B" pin="-IN" pad="6"/>
-<connect gate="B" pin="OUT" pad="7"/>
-<connect gate="P" pin="V+" pad="8"/>
-<connect gate="P" pin="V-" pad="4"/>
-</connects>
-<package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:16409/2"/>
-</package3dinstances>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-<device name="D" package="SO08">
+<device name="M" package="SO08">
 <connects>
 <connect gate="A" pin="+IN" pad="3"/>
 <connect gate="A" pin="-IN" pad="2"/>
@@ -10860,6 +10863,26 @@ NS Package M08A</description>
 </package3dinstances>
 <technologies>
 <technology name=""/>
+<technology name="X"/>
+</technologies>
+</device>
+<device name="MM" package="MSOP08">
+<connects>
+<connect gate="A" pin="+IN" pad="3"/>
+<connect gate="A" pin="-IN" pad="2"/>
+<connect gate="A" pin="OUT" pad="1"/>
+<connect gate="B" pin="+IN" pad="5"/>
+<connect gate="B" pin="-IN" pad="6"/>
+<connect gate="B" pin="OUT" pad="7"/>
+<connect gate="P" pin="V+" pad="8"/>
+<connect gate="P" pin="V-" pad="4"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:16453/1"/>
+</package3dinstances>
+<technologies>
+<technology name=""/>
+<technology name="X"/>
 </technologies>
 </device>
 </devices>
@@ -22995,7 +23018,7 @@ Source: AVX .. aphvc.pdf</description>
 <part name="GND15" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="S1" library="switch-omron" library_urn="urn:adsk.eagle:library:377" deviceset="10-XX" device="" package3d_urn="urn:adsk.eagle:package:27496/1" value="RESET"/>
 <part name="POWER" library="SmartPrj" deviceset="PINHD-1X8" device="" value="8x1F-H8.5"/>
-<part name="U2" library="linear" library_urn="urn:adsk.eagle:library:262" deviceset="LM393" device="D" package3d_urn="urn:adsk.eagle:package:16404/2" value="LM358"/>
+<part name="U2" library="linear" library_urn="urn:adsk.eagle:library:262" deviceset="LMV358?*" device="M" package3d_urn="urn:adsk.eagle:package:16404/2" value="LMV358"/>
 <part name="U4" library="burr-brown" library_urn="urn:adsk.eagle:library:111" deviceset="REG1117" device="" package3d_urn="urn:adsk.eagle:package:4940/1"/>
 <part name="U5" library="burr-brown" library_urn="urn:adsk.eagle:library:111" deviceset="REG1117" device="" package3d_urn="urn:adsk.eagle:package:4940/1"/>
 <part name="X1" library="con-cypressindustries" library_urn="urn:adsk.eagle:library:138" deviceset="MINI-USB-" device="32005-201" package3d_urn="urn:adsk.eagle:package:6443/1"/>
@@ -23026,7 +23049,6 @@ Source: AVX .. aphvc.pdf</description>
 <part name="JP5" library="pinhead" library_urn="urn:adsk.eagle:library:325" deviceset="PINHD-1X1" device="" package3d_urn="urn:adsk.eagle:package:22485/2" value="G"/>
 <part name="J1" library="OPL_Connector" deviceset="CONN-POWER-JACK-2.1MM(DC-005)" device="" package3d_urn="urn:adsk.eagle:package:8004506/1" value="DC-005"/>
 <part name="R10" library="resistor" library_urn="urn:adsk.eagle:library:348" deviceset="R-EU_" device="0204/7" package3d_urn="urn:adsk.eagle:package:23498/2" value="10k"/>
-<part name="GND7" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="P+2" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+5V" device=""/>
 <part name="+3V1" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+3V3" device=""/>
 <part name="+3V2" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+3V3" device=""/>
@@ -23034,6 +23056,7 @@ Source: AVX .. aphvc.pdf</description>
 <part name="P+6" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="V+" device="" value="V+"/>
 <part name="P+11" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="V+" device="" value="V+"/>
 <part name="P+12" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="V+" device="" value="V+"/>
+<part name="P+13" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+5V" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -23334,9 +23357,6 @@ Source: AVX .. aphvc.pdf</description>
 <attribute name="NAME" x="123.19" y="87.4014" size="1.778" layer="95" rot="MR180"/>
 <attribute name="VALUE" x="123.19" y="92.202" size="1.778" layer="96" rot="MR180"/>
 </instance>
-<instance part="GND7" gate="1" x="134.62" y="86.36" smashed="yes">
-<attribute name="VALUE" x="132.08" y="83.82" size="1.778" layer="96"/>
-</instance>
 <instance part="P+2" gate="1" x="40.64" y="144.78" smashed="yes">
 <attribute name="VALUE" x="42.545" y="147.32" size="1.778" layer="96" rot="R180"/>
 </instance>
@@ -23357,6 +23377,9 @@ Source: AVX .. aphvc.pdf</description>
 </instance>
 <instance part="P+12" gate="1" x="83.82" y="200.66" smashed="yes">
 <attribute name="VALUE" x="83.82" y="200.66" size="1.778" layer="96"/>
+</instance>
+<instance part="P+13" gate="1" x="134.62" y="91.44" smashed="yes">
+<attribute name="VALUE" x="132.715" y="91.44" size="1.778" layer="96"/>
 </instance>
 </instances>
 <busses>
@@ -23441,6 +23464,11 @@ Source: AVX .. aphvc.pdf</description>
 <pinref part="U5" gate="G$1" pin="VIN"/>
 <pinref part="P+2" gate="1" pin="+5V"/>
 <wire x1="40.64" y1="137.16" x2="40.64" y2="142.24" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="R10" gate="G$1" pin="2"/>
+<wire x1="132.08" y1="88.9" x2="134.62" y2="88.9" width="0.1524" layer="91"/>
+<pinref part="P+13" gate="1" pin="+5V"/>
 </segment>
 </net>
 <net name="GND" class="2">
@@ -23584,11 +23612,6 @@ Source: AVX .. aphvc.pdf</description>
 <pinref part="C10" gate="G$1" pin="-"/>
 <pinref part="GND21" gate="1" pin="GND"/>
 <wire x1="78.74" y1="127" x2="78.74" y2="121.92" width="0.1524" layer="91"/>
-</segment>
-<segment>
-<pinref part="R10" gate="G$1" pin="2"/>
-<pinref part="GND7" gate="1" pin="GND"/>
-<wire x1="132.08" y1="88.9" x2="134.62" y2="88.9" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="S1" gate="1" pin="P"/>
